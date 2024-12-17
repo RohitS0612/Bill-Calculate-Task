@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <input type="text" id="name" placeholder="Item Name" autocomplete="off" >
+        <input type="number" id="price" placeholder="Price">
+        <input type="number" id="qty" placeholder="Quantity">
+        <button id="btn">Add Item</button>
+        <button>Print Bill</button>
+  
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be appended here -->
+            </tbody>
+        </table>
+        
+        <h1 id="grandTotal">  </h1>
+
+        
+        
+
+    </div>
+   
+</body>
+
+<script src="app.js"></script>
+</html>
